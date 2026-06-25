@@ -6,7 +6,7 @@ Select Language / Selecione o Idioma:
 
 ---
 
-## Português (Brasil)
+## 🇧🇷 Português (Brasil)
 
 ### Sobre o Projeto
 O DeficitPlan é um sistema desktop baseado na arquitetura MVC (Model-View-Controller) desenvolvido em **Python** utilizando a biblioteca gráfica **Tkinter** e estilizado com o tema profissional `arco` (`ttkthemes`).
@@ -61,7 +61,7 @@ Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](
 
 ---
 
-## English
+## 🇺🇸 English
 ### About the Project
 DeficitPlan is a desktop system based on the MVC (Model-View-Controller) architecture, developed in **Python** using the **Tkinter** graphical library and styled with the professional theme `arco` (`ttkthemes`).
 
