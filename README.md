@@ -59,6 +59,8 @@ python main.py
 ### 📄 Licença
 Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LICENSE) para mais detalhes. O uso educacional e a refatoração são encorajados, desde que mantida a atribuição de autoria.
 
+---
+
 ## English
 ### About the Project
 DeficitPlan is a desktop system based on the MVC (Model-View-Controller) architecture, developed in **Python** using the **Tkinter** graphical library and styled with the professional theme `arco` (`ttkthemes`).
@@ -88,7 +90,7 @@ It serves as an excellent sandbox to:
 3. Modify or experiment with new **architectural structures** (e.g., evolving the current MVC).
 4. Practice **cross-platform migration**, using it as a blueprint to transform this desktop app into a **Web** or **Mobile** application.
 
---
+---
 
 ### Installation and Execution
 #### 1. Download and Install Python
