@@ -80,7 +80,6 @@ class TrainingPlanModel:
             }
             all_possible_plans.append(plan)
             
-            # Verifica se está na margem ideal
             if (target_kcal_per_training * 0.85) <= kcal_burned <= (target_kcal_per_training * 1.05):
                 valid_plans.append(plan)
 
@@ -101,7 +100,6 @@ class TrainingPlanModel:
                 }
                 all_possible_plans.append(plan)
                 
-                # Verifica se está na margem ideal
                 if (target_kcal_per_training * 0.90) <= kcal_burned <= (target_kcal_per_training * 1.05):
                     valid_plans.append(plan)
 
