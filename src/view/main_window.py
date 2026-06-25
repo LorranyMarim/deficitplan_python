@@ -107,7 +107,6 @@ class CalorieCalculatorApp(ThemedTk):
         self.build_results()
 
     def build_form(self):
-        # Body Metrics
         frame_metrics = ttk.LabelFrame(self.frame_form, text="Body Metrics", padding=15)
         frame_metrics.grid(row=0, column=0, sticky="ew", pady=(0, 15))
         frame_metrics.columnconfigure(1, weight=1)
@@ -141,7 +140,6 @@ class CalorieCalculatorApp(ThemedTk):
         self.select_level.set("Select an option")
         self.select_level.grid(row=5, column=0, columnspan=2, sticky="ew", pady=(0, 5))
 
-        # Weight Loss Plan
         frame_plan = ttk.LabelFrame(self.frame_form, text="Weight Loss Plan", padding=15)
         frame_plan.grid(row=1, column=0, sticky="ew", pady=(0, 15))
         frame_plan.columnconfigure(1, weight=1)
@@ -167,7 +165,6 @@ class CalorieCalculatorApp(ThemedTk):
         self.select_plan_activity.set("Select an option")
         self.select_plan_activity.grid(row=3, column=0, columnspan=2, sticky="ew", pady=(0, 5))
 
-        # Buttons
         frame_buttons = ttk.Frame(self.frame_form)
         frame_buttons.grid(row=2, column=0, sticky="s", pady=10)
 
